@@ -35,6 +35,7 @@ class Models {
                 dump(response)
             } catch {
                 print("Error while decoding the response: \(error)")
+                //
             }
         }
         
